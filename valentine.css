@@ -1,0 +1,88 @@
+body {
+margin: 0;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background: linear-gradient(135deg, #fff1f5, #faf3e0);
+font-family: 'Segoe UI', sans-serif;
+}
+
+
+.letter {
+background: #fffdd0;
+width: 500px;
+padding: 100px;
+border-radius: 25px;
+box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+text-align: center;
+}
+
+
+.letter img {
+width: 100%;
+border-radius: 20px;
+margin-bottom: 15px;
+}
+
+
+.letter h1 {
+color: #d6336c;
+margin-bottom: 10px;
+font-size: 26px;
+}
+
+
+.letter p {
+color: #444;
+font-size: 15px;
+line-height: 1.6;
+}
+
+
+.signature {
+margin-top: 20px;
+font-weight: bold;
+color: #d6336c;
+}
+
+
+.heart {
+font-size: 30px;
+animation: pulse 1.5s infinite;
+margin-bottom: 10px;
+}
+
+
+@keyframes pulse {
+0% { transform: scale(1); }
+50% { transform: scale(1.2); }
+100% { transform: scale(1); }
+}
+
+
+body{
+ margin: 0;
+  min-height: 100vh;
+  background-image: url("https://t3.ftcdn.net/jpg/08/37/17/56/360_F_837175639_AsgVtKhQHnqxP3MH54lHF9JdGYnlZbqZ.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+    
+}
+
+
+
+.music-hint {
+  font-size: 12px;
+  color: #d6336c;
+  opacity: 0.7;
+  margin-top: 10px;
+  animation: fade 2s infinite;
+}
+
+@keyframes fade {
+  0% { opacity: 0.4; }
+  50% { opacity: 0.9; }
+  100% { opacity: 0.4; }
+}
